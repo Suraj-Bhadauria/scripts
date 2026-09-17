@@ -14,12 +14,12 @@ set -e
 # 5. doing extra settings => auto close parantheses etc 
 
 # VARIABLES
-shell_rc_path="~/.bashrc"
+shell_rc_path="$HOME/.bashrc"
 
 # FOR LINUX
 sudo apt update
 sudo apt install nodejs npm -y
-sudo apt install -g tree-sitter-cli
+sudo apt install tree-sitter-cli
 
 #
 #
